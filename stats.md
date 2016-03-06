@@ -12,5 +12,5 @@ solved: 0
 
 Seguem algumas estatísticas úteis sobre o meu progresso na matéria. A ideia de inserir estes contadores foi inspirada por (descaradamente copiada de) [Nathan Benedetto Proença](http://github.com/nathanPro) com a permissão do mesmo.
 
-- Horas de Contest Registradas: **{{ hours }}**
+- Horas de Treinos Registradas: **{{ hours }}**
 - Problemas Resolvidos em Contest Registrados: **{{ solved }}**
