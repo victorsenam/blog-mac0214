@@ -7,16 +7,7 @@
   <body>
     <div class="wrapper">
 
-      <header class="site-header">
-        <div class="container">
-          <nav>
-            <a href="{{site.baseurl}}" class="{% if page.url == '/' %} active{% endif %}">Home</a>
-            <a href="{{site.baseurl}}about" class="{% if page.url == '/about/' %} active{% endif %}">
-            <span>About</span> Mu-An
-            </a>
-          </nav>
-        </div>
-      </header>
+        {% include header.html %}
 
         <section class="content">
           <div class="container">
@@ -27,7 +18,7 @@
                 {% if page.date %}
                   <small class="datetime muted">
                     {{ page.date | date_to_string }} - 
-                    by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
+                    by <a href="https://github.com/victorsenam" target="_blank">@victorsenam</a>
                   </small>
                   <div class="pagination">
                     {% if page.previous %}

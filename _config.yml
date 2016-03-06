@@ -10,5 +10,5 @@ google_analytics: UA-21332781-7
 timezone:         Brazil/Sao_Paulo
 paginate: 5
 links: 
-  - name:         About
-    url:          /about
+  - name:         Stats
+    url:          /stats
