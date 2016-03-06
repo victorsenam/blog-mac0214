@@ -1,6 +1,6 @@
+url:              http://victorsenam.github.io/blog-mac0214/
 title:            Mu-An Chiou - @muanchiou || @muan
-url:              http://victorsenam.github.io/
-baseurl:          'blog-mac0214/'
+baseurl:          '/blog-mac0214/'
 permalink:        pretty
 pygments:         true
 markdown:         rdiscount

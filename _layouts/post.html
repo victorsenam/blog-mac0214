@@ -10,8 +10,8 @@
       <header class="site-header">
         <div class="container">
           <nav>
-            <a href="/" class="{% if page.url == '/' %} active{% endif %}">Home</a>
-            <a href="/about" class="{% if page.url == '/about/' %} active{% endif %}">
+            <a href="{{site.baseurl}}" class="{% if page.url == '/' %} active{% endif %}">Home</a>
+            <a href="{{site.baseurl}}about" class="{% if page.url == '/about/' %} active{% endif %}">
             <span>About</span> Mu-An
             </a>
           </nav>
