@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Codeforces Round #345
+title: Codeforces Round 345
 hours: 2
 solved: 2
 ---
