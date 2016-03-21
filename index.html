@@ -7,7 +7,7 @@ layout: index
   <li class="post">
     <a href="{{ site.baseurl }}{{ post.url }}" class="post-link">
       <h2 class="post-title" title="{{ post.title }}">
-        {{ post.title }} - {{ post.hours }} horas - {{ post.solved }} problema{% if post.solved != 1 %}s{% endif %}<br />
+        {{ post.title }} || {{ post.hours }} horas - {{ post.solved }} problema{% if post.solved != 1 %}s{% endif %}<br />
       </h2>
       <span class="meta">
         <time>{{ post.date | date_to_string }}</time>
