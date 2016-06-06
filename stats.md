@@ -12,5 +12,5 @@ solved: 0
 
 Seguem algumas estatísticas úteis sobre o meu progresso na matéria. A ideia de inserir estes contadores foi inspirada por (basicamente copiada de) [Nathan Benedetto Proença](http://github.com/nathanPro) com a permissão do mesmo.
 
-- Horas de Treinos Registradas: **{{ minutes/60 }}:{{ minutes%60 }}**
+- Horas de Treinos Registradas: **{{ minutes | divided_by: 60 | floor }}:{{ minutes | modulo: 60 }}**
 - Problemas Resolvidos em Contest Registrados: **{{ solved }}**

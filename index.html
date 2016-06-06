@@ -11,7 +11,7 @@ layout: index
       </h2>
       <span class="meta">
         <time>{{ post.date | date_to_string }}</time>
-        - {{ post.minutes/60 }}:{{ post.minutes%60 }} horas - {{ post.solved }} problema{% if post.solved != 1 %}s{% endif %}<br />
+        - {{ post.minutes | divided_by: 60 | floor }}:{{ post.minutes | modulo: 60 }} horas - {{ post.solved }} problema{% if post.solved != 1 %}s{% endif %}<br />
       </span>
     </a>
   </li>
