@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Codeforces Round 345
-hours: 2
+minutes: 120
 solved: 2
 ---
 

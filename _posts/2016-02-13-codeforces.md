@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 8VC Elimination Round
-hours: 2.5
+minutes: 150
 solved: 4
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IndiaHacks 2016
-hours: 2
+minutes: 120
 solved: 3
 ---
 

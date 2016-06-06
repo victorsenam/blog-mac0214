@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Codeforces Round 351 (VK Cup 2016 Round 3, Div. 1 Edition)
-hours: 2
+minutes: 120
 solved: 3
 ---
 

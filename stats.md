@@ -6,11 +6,11 @@ solved: 0
 ---
 
 {% for post in site.posts %}
-    {% assign hours = hours | plus: post.hours %}
+    {% assign minutes = minutes | plus: post.minutes %}
     {% assign solved = solved | plus: post.solved %}
 {% endfor %}
 
-Seguem algumas estatísticas úteis sobre o meu progresso na matéria. A ideia de inserir estes contadores foi inspirada por (descaradamente copiada de) [Nathan Benedetto Proença](http://github.com/nathanPro) com a permissão do mesmo.
+Seguem algumas estatísticas úteis sobre o meu progresso na matéria. A ideia de inserir estes contadores foi inspirada por (basicamente copiada de) [Nathan Benedetto Proença](http://github.com/nathanPro) com a permissão do mesmo.
 
-- Horas de Treinos Registradas: **{{ hours }}**
+- Horas de Treinos Registradas: **{{ minutes/60 }}:{{ minutes%60 }}**
 - Problemas Resolvidos em Contest Registrados: **{{ solved }}**
