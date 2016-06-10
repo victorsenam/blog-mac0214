@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Codeforces Round 286 (Div. 1)
-hours: 2
+minutes: 120
 solved: 0
 ---
 

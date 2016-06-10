@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CROC 2016 - Elimination Round
-hours: 2
+minutes: 120
 solved: 4
 ---
 

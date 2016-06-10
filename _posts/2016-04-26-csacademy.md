@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSAcademy Beta Round 4
-hours: 2
+minutes: 120
 solved: 1
 ---
 

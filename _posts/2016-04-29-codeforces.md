@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Codeforces Round 349
-hours: 2
+minutes: 120
 solved: 2
 ---
 
